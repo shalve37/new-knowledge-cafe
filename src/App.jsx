@@ -4,6 +4,10 @@ import Bookmarks from "./components/Bookmarks/Bookmarks";
 import Header from "./components/Header/Header";
 import Swal from "sweetalert2";
 function App() {
+  const [readingTime, setReadingTime] = useState(0);
+  const handleMarkAsRead = (time) => {
+    setReadingTime(readingTime + time);
+  };
   const [bookmarks, setBookmarks] = useState([]);
   const handleAddBookmark = (blog) => {
     if (!bookmarks.includes(blog)) {
@@ -17,12 +21,19 @@ function App() {
       });
     }
   };
+  const handleRemoveBookmark = (blog) =>{
+    console.log('removed bookmark')
+  }
   return (
     <div className="font-Poppins md:mx-10">
       <Header></Header>
       <div className="md:flex my-10">
-        <Blogs handleAddBookmark={handleAddBookmark}></Blogs>
-        <Bookmarks bookmarks={bookmarks}></Bookmarks>
+        <Blogs
+          handleAddBookmark={handleAddBookmark}
+          handleMarkAsRead={handleMarkAsRead}
+          handleRemoveBookmark={handleRemoveBookmark}
+        ></Blogs>
+        <Bookmarks bookmarks={bookmarks} readingTime={readingTime}></Bookmarks>
       </div>
     </div>
   );
