@@ -21,9 +21,14 @@ function App() {
       });
     }
   };
-  const handleRemoveBookmark = (blog) =>{
-    console.log('removed bookmark')
-  }
+  const handleRemoveBookmark = (blog) => {
+    if (bookmarks.includes(blog)) {
+      const remainingBookmarks = bookmarks.filter(
+        (bookmark) => bookmark != blog
+      );
+      setBookmarks(remainingBookmarks);
+    }
+  };
   return (
     <div className="font-Poppins md:mx-10">
       <Header></Header>
