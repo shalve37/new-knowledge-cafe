@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "author": "Alice Smith",
+    "title": "The Journey of Life",
+    "posted_date": "2024-04-18",
+    "author_img": "https://i.ibb.co/r6TsnRg/6d1ebf50b4a2c395dabbd4f8c1670c4b.jpg",
+    "image": "https://i.ibb.co/zVDNTHX/flat-lay-desk-dark-concept-with-copy-space.jpg",
+    "hashtags": ["life", "adventure", "reflection"],
+    "duration": 12
+  },
+  {
+    "id": 2,
+    "author": "Bob Johnson",
+    "title": "The Art of Coding",
+    "posted_date": "2024-04-17",
+    "author_img": "https://i.ibb.co/r6TsnRg/6d1ebf50b4a2c395dabbd4f8c1670c4b.jpg",
+    "image": "https://i.ibb.co/zVDNTHX/flat-lay-desk-dark-concept-with-copy-space.jpg",
+    "hashtags": ["coding", "programming", "technology"],
+    "duration": 12
+  },
+  {
+    "id": 3,
+    "author": "Eve Williams",
+    "title": "Capturing Moments: Photography Tips",
+    "posted_date": "2024-04-16",
+    "author_img": "https://i.ibb.co/r6TsnRg/6d1ebf50b4a2c395dabbd4f8c1670c4b.jpg",
+    "image": "https://i.ibb.co/zVDNTHX/flat-lay-desk-dark-concept-with-copy-space.jpg",
+    "hashtags": ["photography", "tips", "creativity"],
+    "duration": 12
+  },
+  {
+    "id": 4,
+    "author": "Michael Brown",
+    "title": "The Power of Meditation: Finding Inner Peace",
+    "posted_date": "2024-04-15",
+    "author_img": "https://i.ibb.co/r6TsnRg/6d1ebf50b4a2c395dabbd4f8c1670c4b.jpg",
+    "image": "https://i.ibb.co/zVDNTHX/flat-lay-desk-dark-concept-with-copy-space.jpg",
+    "hashtags": ["meditation", "mindfulness", "wellness"],
+    "duration": 12
+  },
+  {
+    "id": 5,
+    "author": "Sarah Davis",
+    "title": "Unlocking Creativity: Tips for Artists",
+    "posted_date": "2024-04-14",
+    "author_img": "https://i.ibb.co/r6TsnRg/6d1ebf50b4a2c395dabbd4f8c1670c4b.jpg",
+    "image": "https://i.ibb.co/zVDNTHX/flat-lay-desk-dark-concept-with-copy-space.jpg",
+    "hashtags": ["creativity", "art", "inspiration"],
+    "duration": 12
+  },
+  {
+    "id": 6,
+    "author": "James Wilson",
+    "title": "The World Beneath Our Feet: Exploring Caves",
+    "posted_date": "2024-04-13",
+    "author_img": "https://i.ibb.co/r6TsnRg/6d1ebf50b4a2c395dabbd4f8c1670c4b.jpg",
+    "image": "https://i.ibb.co/zVDNTHX/flat-lay-desk-dark-concept-with-copy-space.jpg",
+    "hashtags": ["caves", "exploration", "nature"],
+    "duration": 12
+  },
+  {
+    "id": 7,
+    "author": "Emily Taylor",
+    "title": "Healthy Living: Tips for a Balanced Lifestyle",
+    "posted_date": "2024-04-12",
+    "author_img": "https://i.ibb.co/r6TsnRg/6d1ebf50b4a2c395dabbd4f8c1670c4b.jpg",
+    "image": "https://i.ibb.co/zVDNTHX/flat-lay-desk-dark-concept-with-copy-space.jpg",
+    "hashtags": ["health", "wellness", "balance"],
+    "duration": 12
+  },
+  {
+    "id": 8,
+    "author": "Daniel Martinez",
+    "title": "Unraveling Mysteries: Ancient Civilizations",
+    "posted_date": "2024-04-11",
+    "author_img": "https://i.ibb.co/r6TsnRg/6d1ebf50b4a2c395dabbd4f8c1670c4b.jpg",
+    "image": "https://i.ibb.co/zVDNTHX/flat-lay-desk-dark-concept-with-copy-space.jpg",
+    "hashtags": ["history", "archaeology", "civilizations"],
+    "duration": 12
+  }
+]
