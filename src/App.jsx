@@ -1,8 +1,8 @@
 import { useState } from "react";
 import Blogs from "./components/Blogs/Blogs";
 import Bookmarks from "./components/Bookmarks/Bookmarks";
-import Header from "./components/Header/Header";
 import Swal from "sweetalert2";
+import { Outlet } from "react-router-dom";
 function App() {
   const [readingTime, setReadingTime] = useState(0);
   const handleMarkAsRead = (time) => {
@@ -31,7 +31,6 @@ function App() {
   };
   return (
     <div className="font-Poppins md:mx-10">
-      <Header></Header>
       <div className="md:flex my-10">
         <Blogs
           handleAddBookmark={handleAddBookmark}
@@ -40,6 +39,7 @@ function App() {
         ></Blogs>
         <Bookmarks bookmarks={bookmarks} readingTime={readingTime}></Bookmarks>
       </div>
+      <Outlet></Outlet>
     </div>
   );
 }
